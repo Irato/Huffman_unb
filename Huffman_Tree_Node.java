@@ -1,4 +1,3 @@
-
 public class Huffman_Tree_Node {
 	float p; 	//qual a frequencia
 	byte c;		//qual o byte
@@ -10,7 +9,7 @@ public class Huffman_Tree_Node {
 		this.c =(byte) c;
 	}
 	
-	public Huffman_Tree_Node(Huffman_Tree_Node f, Huffman_Tree_Node f1){ //construtor pra nós
+	public Huffman_Tree_Node(Huffman_Tree_Node f, Huffman_Tree_Node f1){ //construtor pra nÃ³s
 		this.p = f.p + f1.p;
 		this.filho = f;
 		this.filho1 = f1;
